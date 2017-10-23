@@ -1,3 +1,5 @@
+#!/bin/sh
+
 cmd=""
 if [ -n "$SSH_HOST_PASSWORD" ]
 then
