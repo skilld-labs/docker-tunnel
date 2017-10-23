@@ -1,4 +1,4 @@
-FROM alpine:3.5
-RUN apk add --update openssh-client sshpass && rm -rf /var/cache/apk/*
-COPY start.sh .
-CMD /bin/sh start.sh
+FROM alpine:3.6
+RUN apk add --no-cache openssh-client sshpass
+COPY start.sh /usr/bin/start.sh
+CMD ["/usr/bin/start.sh"]
