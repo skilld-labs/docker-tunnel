@@ -1,7 +1,9 @@
-# Tunnel image
+# SSH-tunnel image
+
+- [source](https://github.com/skilld-labs/docker-tunnel)
 
 ## Description
-Run tunnel for unavailable source through some server
+Run tunnel for unavailable source through some ssh-server
 
 ## Variables
 * `BIND_HOST` - what host to use for binding destination resource
